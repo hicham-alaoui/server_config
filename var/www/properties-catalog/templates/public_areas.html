@@ -1,0 +1,20 @@
+{% extends "main.html" %}
+<div class="container" >
+{% block content %}
+<br>
+	<h1>Property Areas</h1>
+<br>
+	<h4><b>Click on an area to search for properties<b></h4>
+
+	<div class="properties-div">
+		{% for a in all_areas %}
+			<a href = "{{url_for('allProperties', area_id = a.id)}}">
+				<div class="col-md-12 area-items">
+					<h3><b>The {{a.name}} area</b></h3><br>
+				</div>
+			</a>		
+</br>	
+		{% endfor %}
+</div>
+
+{% endblock %}	

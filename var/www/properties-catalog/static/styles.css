@@ -1,0 +1,189 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-color: #BDB76B;	
+}
+
+li {
+	list-style-type: none;	
+}
+
+h1 {
+
+	text-align: center;
+}
+
+a {
+		color: #8B008B;
+}
+
+footer {
+	margin-top:15px;
+}
+
+}.nav-background{
+	background-image: url('../static/nav-background.png');
+}
+.G {
+	color: #4885ed;
+	font-weight: bold;
+}
+
+.o1 {
+	color: #db3236;
+	font-weight: bold;
+}
+
+.o2 {
+	color: #f4c20d;
+	font-weight: bold;
+}
+
+.g {
+	color: #4885ed;
+	font-weight: bold;
+}
+
+.l {
+	color: #3cba54;
+	font-weight: bold;
+}
+
+.e {
+	color: #4885ed;
+	font-weight: bold;
+}
+
+
+.glyph-color {
+	color: #555;
+}
+.li-color {
+	color: #fff;
+}
+.nav-title {
+	font-family: 'Original Surfer', cursive;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.img1 {
+	border-radius: 50%;
+}
+.padding-top {
+	padding-top: 30px;
+}
+.padding-bottom {
+	padding-bottom: 30px;
+}
+.margin-right {
+	margin-right: 30px;
+}
+.padding-none {
+	padding: 0;
+}
+
+.btn:hover {
+	border-color: grey;
+}
+.btn.delete {
+	border-color: #aaaaaa;
+	color: #aaaaaa;
+}
+.btn.delete:hover {
+	border-color: #aaaaaa;
+	color: red;
+}
+.glyphicon {
+	margin-right: 10px;
+}
+.top-menu {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.top-menu p {
+	margin-bottom: 0;
+	line-height: 16px;
+}
+.top-menu a {
+	margin-bottom: 0;
+	line-height: 16px;
+	font-size: 16px;
+	color: #7B7573;
+	font-weight: 400;
+}
+
+
+.result-screen {
+	background-color: #EEE8AA;
+	border-radius: 20px;
+	font-weight: bold;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.wrapper {
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #008080;
+    margin-top: 20px;
+    overflow-wrap: normal;
+	overflow-wrap: break-word;
+}
+
+.block {
+    padding: 15px;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: middle;
+    text-align:center;
+
+}
+
+.properties-div {
+	padding: 25px;
+}
+
+ .area-items {
+ 	background-color: #fff;
+ 
+}
+
+.menu-item {
+	background: #F0F0F0;
+	padding: 20px;
+	margin: 20px;
+	margin-left: -20px;
+}
+
+
+.creator {
+	font-weight: bold;
+	text-align: right;
+}
+
+.creator img {
+	width: 35px;
+	border-radius: 50%;
+}
+
+
+
+.flash {
+	background-color: #98FB98;
+	width:100%;
+	color: #fff;
+	font-weight: bold;
+	background-color: grey;
+	list-style-type: none;
+
+}
+
+
+#signInButton {
+	padding: 50px;
+}
+

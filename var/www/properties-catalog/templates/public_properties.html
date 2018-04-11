@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+<div class="container">
+{% block content %}
+<br>
+	<h1>The {{ area.name }} Area</h1>
+<br>
+	<div class="col-md-8 col-md-offset-2">
+		<button class="btn btn-default"><a href="{{url_for('allAreas') }}"><span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span>Go Back</a></button>
+		{% if list !=[] %}
+			{% for i in list %}
+				<div class="menu-item">
+					<p>{{i.address}}</p>
+					<p>{{i.description}}</p>
+					<p>{{i.city}}</p>
+					<p>{{i.price}}</p>
+				</div>
+			{% endfor %}
+		{% endif %}
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+<div class="container">
+{% block content %}
+	
+		<button class="btn btn-default" ><a href="{{url_for('newArea')}}">
+			<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Add New Area</a>
+		</button>
+	
+
+<br>
+	<div class="properties-div">
+	{% for i in all_areas %}
+		<a href = "{{url_for('allProperties', area_id = i.id)}}">
+			<div class="col-md-12 area-items">
+			<h3>{{i.name}}</h3></div>
+		</a>
+	{% endfor %}  
+	</div> 
+<br>
+{% endblock %}
+</div>

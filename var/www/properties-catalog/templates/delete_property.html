@@ -1,0 +1,19 @@
+{% extends "main.html" %}
+<div class="container">
+{% block content %}
+
+<h2> Are you sure you want to delete this property? </h2>
+
+<form action="#" method = 'post'>
+
+	<button type="submit" class="btn btn-default delete" id="submit" type="submit">
+	<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Delete</button>
+
+	<button class="btn btn-default" type="button">
+		<a href="{{url_for('allAreas') }}"><span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span>Cancel</a>
+	</button>
+
+</form>
+
+{% endblock %}
+</div>
